@@ -1,0 +1,60 @@
+{
+    "level_id": 1,
+    "tasks": [
+      {
+        "task": "Welcome to your first day as a software engineer! Press Enter to continue.",
+        "hint": "Just press Enter.",
+        "code": "// Welcome to the project!",
+        "key": "Enter",
+        "ctrl": false,
+        "shift": false,
+        "alt": false
+      },
+      {
+        "task": "Let's start by creating a new file for your project. Press Ctrl + Shift + A to open the 'Add New Item' dialog.",
+        "hint": "Press Ctrl + Shift + A to proceed.",
+        "code": "// New file dialog opened. Ready to create your first file.",
+        "key": "A",
+        "ctrl": true,
+        "shift": true,
+        "alt": false
+      },
+      {
+        "task": "Type 'Program.cs' as the name of your new file and press Enter to add it to your project.",
+        "hint": "Press Enter to proceed.",
+        "code": "using System;\n\nnamespace MyProject\n{\n    class Program\n    {\n        static void Main(string[] args)\n        {\n            Console.WriteLine('Welcome to your new project!');\n        }\n    }\n}",
+        "key": "Enter",
+        "ctrl": false,
+        "shift": false,
+        "alt": false
+      },
+      {
+        "task": "Now, save your work by pressing Ctrl + S.",
+        "hint": "Press Ctrl + S to save your work.",
+        "code": "using System;\n\nnamespace MyProject\n{\n    class Program\n    {\n        static void Main(string[] args)\n        {\n            Console.WriteLine('Welcome to your new project!');\n            Console.WriteLine('Your project file has been saved.');\n        }\n    }\n}",
+        "key": "S",
+        "ctrl": true,
+        "shift": false,
+        "alt": false
+      },
+      {
+        "task": "Let's build the project by pressing Ctrl + Shift + B.",
+        "hint": "Press Ctrl + Shift + B to build the project.",
+        "code": "using System;\n\nnamespace MyProject\n{\n    class Program\n    {\n        static void Main(string[] args)\n        {\n            Console.WriteLine(\"Welcome to your new project!\");\n            Console.WriteLine(\"Your project file has been saved.\");\n            Console.WriteLine(\"Build successful. You're ready to run the application!\");\n        }\n    }\n}",
+        "key": "B",
+        "ctrl": true,
+        "shift": true,
+        "alt": false
+      },
+      {
+        "task": "It's time to debug the project. Press F5 to start debugging.",
+        "hint": "Press F5 to start debugging.",
+        "code": "// Debug mode activated. Let's find and fix some bugs!",
+        "key": "F5",
+        "ctrl": false,
+        "shift": false,
+        "alt": false
+      }
+    ]
+  }
+  

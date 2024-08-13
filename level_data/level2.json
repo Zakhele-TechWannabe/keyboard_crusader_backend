@@ -1,0 +1,60 @@
+{
+    "level_id": 3,
+    "tasks": [
+      {
+        "task": "Let's start by opening the Error List. Press Ctrl + \\ + E to open it.",
+        "hint": "Press Ctrl + \\ + E to open the Error List.",
+        "code": "// Error List opened.",
+        "key": "E",
+        "ctrl": true,
+        "shift": false,
+        "alt": false
+      },
+      {
+        "task": "Add a new method to the GreetClass. Type 'public void Farewell()' and press Enter.",
+        "hint": "Type the method signature and press Enter.",
+        "code": "using System;\n\nnamespace MyProject\n{\n    class GreetClass\n    {\n        public void Greet()\n        {\n            Console.WriteLine('Hello from GreetClass!');\n        }\n\n        public void Farewell()\n        {\n            Console.WriteLine('Goodbye from GreetClass!');\n        }\n    }\n}",
+        "key": "Enter",
+        "ctrl": false,
+        "shift": false,
+        "alt": false
+      },
+      {
+        "task": "Navigate to the Greet() method using the Go To Definition feature. Select the method name and press F12.",
+        "hint": "Press F12 to navigate to the method definition.",
+        "code": "// Navigated to the Greet() method.",
+        "key": "F12",
+        "ctrl": false,
+        "shift": false,
+        "alt": false
+      },
+      {
+        "task": "Let's extract the greeting message to a new method. Select the message and press Ctrl + R, then Ctrl + M.",
+        "hint": "Press Ctrl + R, then Ctrl + M to extract the method.",
+        "code": "using System;\n\nnamespace MyProject\n{\n    class GreetClass\n    {\n        public void Greet()\n        {\n            GreetMessage();\n        }\n\n        private void GreetMessage()\n        {\n            Console.WriteLine('Hello from GreetClass!');\n        }\n\n        public void Farewell()\n        {\n            Console.WriteLine('Goodbye from GreetClass!');\n        }\n    }\n}",
+        "key": "R",
+        "ctrl": true,
+        "shift": false,
+        "alt": false
+      },
+      {
+        "task": "Let's add a comment to the GreetMessage method. Type '// This method displays a greeting message' and press Enter.",
+        "hint": "Type the comment and press Enter.",
+        "code": "using System;\n\nnamespace MyProject\n{\n    class GreetClass\n    {\n        public void Greet()\n        {\n            GreetMessage();\n        }\n\n        private void GreetMessage()\n        {\n            // This method displays a greeting message\n            Console.WriteLine('Hello from GreetClass!');\n        }\n\n        public void Farewell()\n        {\n            Console.WriteLine('Goodbye from GreetClass!');\n        }\n    }\n}",
+        "key": "Enter",
+        "ctrl": false,
+        "shift": false,
+        "alt": false
+      },
+      {
+        "task": "Finally, let's refactor the class name. Press Ctrl + R, then Ctrl + R to rename GreetClass to MessageClass.",
+        "hint": "Press Ctrl + R, then Ctrl + R to rename the class.",
+        "code": "using System;\n\nnamespace MyProject\n{\n    class MessageClass\n    {\n        public void Greet()\n        {\n            GreetMessage();\n        }\n\n        private void GreetMessage()\n        {\n            // This method displays a greeting message\n            Console.WriteLine('Hello from MessageClass!');\n        }\n\n        public void Farewell()\n        {\n            Console.WriteLine('Goodbye from MessageClass!');\n        }\n    }\n}",
+        "key": "R",
+        "ctrl": true,
+        "shift": false,
+        "alt": false
+      }
+    ]
+  }
+  
