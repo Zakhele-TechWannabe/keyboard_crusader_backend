@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run init-db && npm run insert-data",
     "init-db": "node initializeDb.js",
     "insert-data": "node insertData.js",
     "start": "node server.js",
